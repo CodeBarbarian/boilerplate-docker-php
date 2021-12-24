@@ -1,0 +1,19 @@
+{
+    "name": "codebarbarian/boilerplate",
+    "description": "Boilerplate Composer configuration",
+    "authors": [
+        {
+            "name": "CodeBarbarian",
+            "email": "morten.haugstad@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Application\\": "Application/"
+        }
+    }
+}

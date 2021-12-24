@@ -1,0 +1,15 @@
+{
+    "name": "codebarbarian/boilerplate",
+    "description": "Boilerplate Composer configuration",
+    "authors": [
+        {
+            "name": "CodeBarbarian",
+            "email": "morten.haugstad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/"
+        }
+    }
+}

@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 
 services:
   php-fpm:
@@ -14,6 +14,8 @@ services:
       - MYSQL_USER=mysqlusername
       - MYSQL_PASSWORD=mysqlpassword
       - MYSQL_ROOT_PASSWORD=mysql_root_password
+    volumes:
+      - ./database_storage:/var/lib/mysql
   nginx:
     build:
       context: ./docker/nginx
