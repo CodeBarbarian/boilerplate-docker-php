@@ -1,4 +1,4 @@
-FROM php:fpm-alpine
+FROM php:8.1.10RC1-fpm-alpine3.16
 
 # Add extensions to php first
 RUN docker-php-ext-install pdo_mysql
